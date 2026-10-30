@@ -1,5 +1,7 @@
 # Eye-Galvo Control
 
+中文 | [English](README.en.md)
+
 [![Python Verification](https://github.com/LiTongShuo-edu/eye-galvo-control/actions/workflows/python.yml/badge.svg)](https://github.com/LiTongShuo-edu/eye-galvo-control/actions/workflows/python.yml)
 
 这是一个视线目标定位与振镜控制实验项目。系统通过 Intel RealSense 深度相机获取画面与深度信息，使用 MediaPipe Face Landmarker 定位双眼中心，将目标转换为相机坐标系中的三维位置，再通过 RIGOL DP832 输出振镜控制电压。项目已完成真实设备链路的功能验证，验证范围见 [硬件验证记录](./docs/hardware-validation.md)。
